@@ -1,13 +1,24 @@
-import './Menu.css'
+import './Menu.css';
 
 import React from "react";
 
 const Menu = props => {
-           
-    <aside className="App">
-        Componente Menu
-    </aside>
+  return (
     
+    <div className="Menu">
+     <nav>
+       <ul>
+         <li>
+            <a href="/">Início</a>
+         </li>
+         <li>
+            <a href="/">Sobre</a>
+         </li>
+       </ul>
+     </nav>
+    </div>
+
+  )
 }
 
 export default Menu;

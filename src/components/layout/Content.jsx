@@ -1,13 +1,16 @@
-import './Content.css'
+import './Content.css';
 
 import React from "react";
 
-const Menu = props => {
-           
-    <main className="App">
-        Componente Menu
-    </main>
+const Content = props => {
+
+return (
     
+    <main className="Content">
+      <h1>Component Content </h1>
+    </main>
+)
+
 }
 
-export default Menu;
+export default Content;
