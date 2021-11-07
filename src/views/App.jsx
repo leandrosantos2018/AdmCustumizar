@@ -3,17 +3,17 @@ import './App.css';
 import Content from '../components/layout/Content';
 import Menu from '../components/layout/Menu';
 import React from "react";
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = props => {
+const App = props => (
+  <div className="App">
+    <Router>
+      <Menu />
+      <Content />
+    </Router>
 
-return (
-    
-    <div className="App">
-      <Menu/>
-      <Content/>
-    </div>
+  </div>
 )
 
-}
 
 export default App;
