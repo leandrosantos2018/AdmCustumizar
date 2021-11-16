@@ -1,0 +1,43 @@
+.Home {
+    display: flex;
+    
+}
+ .card {
+  border-left: 6px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+
+  display: flex;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.Card .Title {
+    margin-top: 10px;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.card {
+  border-radius: 15px;
+
+  height: 115px;
+  width: 234px;
+  margin-top: 50 px;
+  background: #32CCBC;
+  color: white;
+  text-align: center;
+  justify-items: flex-start;
+  border-radius: 15 px;
+  height: 91 px;
+  width: 212 px;
+  border-bottom: 0 px;
+  border-top: 0 px;
+  border-left: 10 px solid;
+  border-color: #49C628;
+  border-right: 0 px;
+}
